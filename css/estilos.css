@@ -1,0 +1,128 @@
+.texto1{font-family:Berlin Sans FB Demi;
+color:red;
+font-size:40px;
+text-align:center}
+
+.texto2{font-family:Arial;
+color:blck;
+font-size:30px;
+text-align:center}
+
+.cajappal{width: 1230px;
+height:2050px;
+border:2px solid #200D23;
+margin:5px;}
+
+.caja1{ width: 1200px;
+height:600px;
+border:2px solid #200D23;
+margin: 20px}
+
+ul{list-style:none;}
+
+
+#navegacion {margin:0;
+padding:0;}
+
+#navegacion #item {float:left;}
+
+#navegacion #item a {background:white;
+color:blue;
+padding:5px 60px;
+display:block;
+text-decoration:none;}
+
+#navegacion #submenu{display:none;
+position:absolute;}
+
+#navegacion #item a:hover{background:#000;
+color:white;}
+
+#navegacion #item:hover #submenu{display:block;}
+
+
+
+.caja3{ width: 800px;
+height:1200px;
+margin-left:5px;
+margin-right:5px;
+padding: 40px;
+border:2px solid #200D23;
+float: left;
+clear: both}
+
+
+.caja4{
+width: 320px;
+height:1275px;
+margin:. 10px;
+padding: 2px;
+border:2px solid #200D23;
+display: inline-block;
+clear: both}
+
+
+.caja5{ width: 1200px;
+height:30px;
+border:2px solid #200D23;
+margin: 15px}
+
+
+
+
+
+
+
+
+
+
+.animacion{width:95%;
+margin:30px ;
+overflow:hidden;
+height:600px }
+
+
+.animacion ul {
+	display:flex;
+	padding:0px;
+	
+width:400%;
+animation:otra 20s infinite alternate;
+}
+
+.animacion li{
+	list-style:none;
+	width:300%;
+	
+}
+
+
+.animacion img{
+width:100%}
+
+
+
+@keyframes otra{
+0%{margin-left:0;}
+20%{margin-left:0;}
+25%{margin-left:-100%;}
+45%{margin-left:-100%;}
+50%{margin-left:-200%;}
+70%{margin-left:-200%;}
+75%{margin-left:-300%;}
+100%{margin-left:-300%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
